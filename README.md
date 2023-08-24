@@ -1,4 +1,4 @@
-# Trace - Dependency Monitoring Tool
+# Trace Dependency
 
 Trace is a command-line tool for monitoring the status of your project's dependencies. It helps you identify outdated or vulnerable packages and facilitates dependency management.
 
