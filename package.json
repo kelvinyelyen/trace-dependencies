@@ -4,7 +4,8 @@
   "description": "Dependency monitoring tool",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "trace": "node index.js"
   },
   "author": "kelvinyelyen",
   "license": "MIT",

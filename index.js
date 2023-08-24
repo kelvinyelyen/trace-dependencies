@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 /**
  * The bellow code is a JavaScript function that checks the status of dependencies in a package.json
  * file and prints whether they are up to date, outdated, or not found.
@@ -6,6 +8,7 @@
  * @returns The `checkDependencyStatus` function returns a string indicating the status of a
  * dependency. It can return one of the following values:
  */
+
 import axios from "axios"
 import chalk from "chalk"
 import fs from "fs"
