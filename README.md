@@ -28,8 +28,3 @@ trace /path/to/your/project
 ## Author
 
 Author: kelvinyelyen
-
-
-## Contributing
-
-Contributions are welcome! If you find a bug or have a suggestion, please open an issue on GitHub.# trace-dependencies
