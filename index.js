@@ -19,12 +19,12 @@ async function checkDependencyStatus(dependency) {
     const { version: installedVersion } = JSON.parse(packageJsonContent)
 
     if (installedVersion === latestVersion) {
-      return "up to date"
+      return "Up to date"
     } else {
-      return `outdated (latest: ${latestVersion})`
+      return `Outdated (latest: ${latestVersion})`
     }
   } catch (error) {
-    return "not found"
+    return "Not found"
   }
 }
 
@@ -36,7 +36,7 @@ async function checkAllDependencies() {
 
   for (const dependency of Object.keys(dependencies)) {
     const status = await checkDependencyStatus(dependency)
-    if (status !== "up to date") {
+    if (status !== "Up to date") {
       outdatedDependencies.push(`${dependency}: ${status}`)
     }
   }

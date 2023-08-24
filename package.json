@@ -1,5 +1,5 @@
 {
-  "name": "trace",
+  "name": "trace-dependencies",
   "version": "1.0.0",
   "description": "Dependency monitoring tool",
   "main": "index.js",
