@@ -1,0 +1,19 @@
+{
+  "name": "trace",
+  "version": "1.0.0",
+  "description": "Dependency monitoring tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kelvinyelyen",
+  "license": "MIT",
+  "type": "module",
+   "bin": {
+    "trace": "./index.js"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.3.0"
+  }
+}
