@@ -23,8 +23,3 @@ trace /path/to/your/project
 - Identifies outdated or vulnerable dependencies.
 - Provides a clear status report for your project's dependencies.
 - Helps you keep your project up to date.
-
-
-## Author
-
-Author: kelvinyelyen
