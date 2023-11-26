@@ -17,9 +17,3 @@ After installing Trace, you can use it by running the trace command followed by 
 ```bash
 trace /path/to/your/project
 ```
-
-## Features
-
-- Identifies outdated or vulnerable dependencies.
-- Provides a clear status report for your project's dependencies.
-- Helps you keep your project up to date.
